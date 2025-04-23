@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #1e293b;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #f8fafc;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #38bdf8;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .text-content {
+    max-width: 600px;
+  }
+  
+  .text-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .destaque {
+    color: #facc15; /* amarelo forte */
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+  }
+
+  .btn:hover {
+    background-color: #eab308;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #e2e8f0;
+    background-color: #334155;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .social a:hover {
+    background-color: #475569;
+  }
+  img{
+    max-width: 400px;
+    border-radius: 40px;
+  }
+  
+  .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* ajusta com a altura do header */
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #1e293b;
+    padding: 10px 0;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    z-index: 100;
+  }
+  
+  .submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #f8fafc;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .submenu li a:hover {
+    background-color: #334155;
+  }
+  
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
+
+  .sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .texto-sobre {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .texto-sobre h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #facc15;
+  }
+  
+  .texto-sobre p {
+    font-size: 16px;
+    color: #cbd5e1;
+    line-height: 1.6;
+  }
+  
+  .foto-sobre img {
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
